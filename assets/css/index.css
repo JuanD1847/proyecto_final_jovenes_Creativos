@@ -46,3 +46,35 @@ body{
     padding: 0;
     margin: 0;
 }
+
+/*MAIN*/
+
+.que-hace{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url(../img/pasta-794464_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.contenido{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(139, 128, 249, 0.5);
+    color: white;
+    width: 1000px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contenido h2{
+    font-size: 35px;
+}
+
+.contenido p{
+    font-size: 20px;   
+}
