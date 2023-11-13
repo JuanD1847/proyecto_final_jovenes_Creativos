@@ -136,3 +136,58 @@ footer p{
     height: 3vw;
     margin-right: 10px;
 }
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+    /*HEADER*/
+
+    .barra {
+        flex-direction: column; 
+        align-items: stretch; 
+    }
+    
+    .barra h1 {
+        text-align: center;
+        margin-bottom: 10px; 
+    }
+    
+    .menu {
+        width: 100%; 
+        text-align: center; 
+        margin-left: 0; 
+    }
+    
+    .barra li, .barra a {
+        margin: 0; 
+    }
+
+    /*MAIN*/
+    
+    .item{
+        width: 75vw;
+        margin-bottom: 20px;
+    }
+    .item img{
+        width: 70vw;
+        height: 45vh;
+    }
+
+    /*FOOTER*/
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .redes{
+        justify-content: center;
+    }
+
+    .redes a img{
+        width: 6vw;
+        height: 6vw;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+}
