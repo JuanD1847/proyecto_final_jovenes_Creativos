@@ -139,3 +139,33 @@ body{
     color: #73a12d;
     font-size: 15px;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #353531;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.redes{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.redes p strong{
+    margin-left: 20px;
+    color: #A5CC6B;
+    font-size: 20px;
+}
+footer p{
+    margin-right: 20px;
+}
+.redes a img{
+    margin-top:10px ;
+    width: 3vw;
+    height: 3vw;
+    margin-right: 10px;
+}
