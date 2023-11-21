@@ -47,11 +47,9 @@ function registrarUsuario(users) {
     // Guardar el arreglo actualizado en localStorage
     localStorage.setItem('users', JSON.stringify(users));
 
-    // Mostrar el arreglo en la consola (puedes quitar esto en la versión final)
-    console.log(users);
     alert('Bienvenido, su usuario fue creado con éxito');
     // Redirigir al usuario
-    window.location.href = 'portafolio.html';
+    window.location.href = 'iniciarSesion.html';
 }
 
 // Función para verificar si el email ya existe en el arreglo de usuarios

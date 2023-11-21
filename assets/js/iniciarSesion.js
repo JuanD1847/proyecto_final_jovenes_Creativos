@@ -2,12 +2,11 @@ document.getElementById('inicioSesionForm').addEventListener('submit', iniciarSe
 //obtiene el formulario por su id
 document.addEventListener('DOMContentLoaded', function() {
     var usuarioActual = JSON.parse(localStorage.getItem('usuarioActual')) || null;
-    console.log('sicargo pa')
+    
     if (usuarioActual) {
         // Si hay un usuario almacenado, modificar el enlace de Iniciar sesión a Cerrar sesión
         var linkInicioSesion = document.querySelector('.menu ul li:last-child a');
         linkInicioSesion.textContent = 'Cerrar sesión';
-        linkInicioSesion.href = '#';  // Puedes colocar aquí el enlace de cierre de sesión si lo necesitas
     }
 
     // Resto del código para cerrar sesión
