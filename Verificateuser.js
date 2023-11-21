@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
     var usuarioActual = JSON.parse(localStorage.getItem('usuarioActual')) || null;
-    console.log('sicargo pa');
 
     var enlacePortafolio = document.getElementById('display');
 
