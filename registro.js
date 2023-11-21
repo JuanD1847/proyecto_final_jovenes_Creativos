@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log(users);
         alert('Bienvenido, su usuario fue creado con éxito');
         // Redirigir al usuario
-        window.location.href = 'portafolio.html';
+        window.location.href = 'index.html';
     }
 });
 
