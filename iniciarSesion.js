@@ -1,6 +1,5 @@
-//obtiene el formulario por su id
 document.getElementById('inicioSesionForm').addEventListener('submit', iniciarSesion);
-
+//obtiene el formulario por su id
 document.addEventListener('DOMContentLoaded', function() {
     var usuarioActual = JSON.parse(localStorage.getItem('usuarioActual')) || null;
     console.log('sicargo pa')

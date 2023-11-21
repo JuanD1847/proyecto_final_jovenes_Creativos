@@ -1,4 +1,3 @@
-// Registro.js
 document.addEventListener('DOMContentLoaded', function() {
     // Obtener el arreglo de usuarios desde localStorage o inicializarlo como un arreglo vacío
     var users = JSON.parse(localStorage.getItem('users')) || [];
